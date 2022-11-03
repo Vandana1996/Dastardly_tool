@@ -5,7 +5,7 @@ uses: PortSwigger/dastardly-github-action@main
     with:
       target-url: 'https://ginandjuice.shop'
 inputs:
-  target-url:
+  target-url: 'https://ginandjuice.shop'
     description: 'The full url (including scheme) of the site to scan'
     required: true
   output-filename:
